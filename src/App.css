@@ -1,0 +1,138 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box{
+
+    width: 369px;
+    background-color: #515858;
+    border-radius: 11px;
+    height: 420px;
+    margin-top: 50px;
+}
+
+label{
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  padding-left: 12px;
+  padding-top: 18px;
+}
+
+.next-button{
+  width: 95% !important;
+  background-color: #f9b544 !important;
+  border: none !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 600!important;
+  margin-left: 10px;
+}
+
+.next-button:hover{
+  box-shadow: 0px 0px 12px 5px white;
+}
+
+
+.next-button-sm{
+  width: 95% !important;
+  background-color: #f9b544 !important;
+  border: none !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 600!important;
+  margin-left: 10px;
+  margin-left: 0px !important;
+}
+
+.back-button{
+  width: 95% !important;
+  background-color: rgb(180, 35, 35) !important;
+  border: none !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 600!important;
+
+}
+
+.back-button-sm{
+  width: 95% !important;
+  background-color: rgb(180, 35, 35) !important;
+  border: none !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 600!important;
+  margin-left: 10px;
+}
+
+
+h3{
+  color: white;
+  padding-left: 10px;
+  padding-top: 18px;
+}
+input[type=radio]{
+  cursor: pointer;
+}
+
+input[type=text],input[type=date]{
+  width: 95%;
+  margin-left: 10px;
+}
+
+#e_date{
+  margin-left: 0px !important;
+}
+img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 6rem;
+  height: 420px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width:990px) {
+  .hideForMobile{
+    display: none;
+  }
+}
+
+.individual-radio{
+  height: 45px;
+  padding-left: 15px;
+}
