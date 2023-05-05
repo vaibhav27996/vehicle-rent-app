@@ -36,7 +36,7 @@ const UserName=() =>{
          <div className='container'>
             {!isShownOne && <>
                <div className='row'>
-                  <div className='col-12 col-sm-12 col-lg-5 col-md-5 mt-5'>
+                  <div className='col-12 col-sm-12 col-lg-5 col-md-5 mt-2'>
                      <div className="box">
                         <h3>First, What is your name?</h3>
                         <label  for="fname">First Name</label><br />

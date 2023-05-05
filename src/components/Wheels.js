@@ -46,7 +46,7 @@ const Wheels = (props) => {
       <div className="container">
          {!isShownTwo && (<>
             <div className='row'>
-               <div className='col-12 col-sm-12 col-lg-5 col-md-5 mt-5'>
+               <div className='col-12 col-sm-12 col-lg-5 col-md-5 mt-2'>
                   <div className="box">
                      <h3>How many no of wheels vehicle you have to select ?</h3>
                      {props.wheels.map((item, idx) => {

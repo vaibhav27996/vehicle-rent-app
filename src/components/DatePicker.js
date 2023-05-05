@@ -1,14 +1,13 @@
-import { Link, useNavigate } from "react-router-dom";
-import {useState,useEffect} from 'react';
-import DatePickers from "react-datepicker";
+import {useState} from 'react';
+// import DatePickers from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { ToastContainer, toast } from 'react-toastify';
+import {toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import BannerImage from './BannerImage';
 
 const DatePicker=(props) =>{
     const [startDate,setStartDate]=useState("");
     const [endDate,setEndDate]=useState("");
-    const navigate = useNavigate();
 
     const backFromBooking=()=>{
       props.setIsShownFour(false);
@@ -57,7 +56,7 @@ const DatePicker=(props) =>{
       return (
          <div className='container'>
             <div className='row'>
-               <div className='col-12 col-sm-12 col-lg-5 col-md-5 mt-5'>
+               <div className='col-12 col-sm-12 col-lg-5 col-md-5 mt-2'>
                   <div className="box" style={{height:490}}>
                      <h3>Select start and end date for book vehicle for rent?</h3>
                      <div className="row mt-2">

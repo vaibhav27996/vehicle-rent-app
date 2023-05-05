@@ -121,7 +121,7 @@ img{
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 4rem;
   height: 420px;
   border-radius: 10px;
 }
@@ -135,4 +135,10 @@ img{
 .individual-radio{
   height: 45px;
   padding-left: 15px;
+}
+
+.header-style{
+  width: 101%;
+  background-color: #fdce4a;
+  height: 60px;
 }

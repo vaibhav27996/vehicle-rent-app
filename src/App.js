@@ -6,6 +6,7 @@ import Wheels from './components/Wheels';
 import UserName from './components/UserName';
 import VehicleModel from './components/VehicleModel';
 import VehicleType from './components/VehicleType';
+import Header from './components/Header';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         theme="light"
         
         />
+            <Header />
             {/* <Navbar /> */}
             <Routes>
                 <Route exact path="/" element={<UserName />}></Route>

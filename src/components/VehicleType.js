@@ -56,7 +56,7 @@ const VehicleType=(props) =>{
     	<div className='container'>
        	{!isShownThree && (<>
         		<div className='row'>
-      			<div className='col-12 col-sm-12 col-lg-5 col-md-5 mt-5'>
+      			<div className='col-12 col-sm-12 col-lg-5 col-md-5 mt-2'>
         				<div className="box" style={{height:490}}>
                      <h3>Select Type of Vehicle ?</h3><br />
 
